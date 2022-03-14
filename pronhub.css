@@ -1,0 +1,113 @@
+:root {
+  --orange: #ffa31a;
+  --gray-1: #808080;
+  --gray-2: #292929;
+  --gray-3: #1b1b1b;
+  --ic-brand-primary-darkened-5: #ab1a1a !important;
+  --ic-brand-primary-darkened-10: #a21919 !important;
+  --ic-brand-primary-darkened-15: #991717 !important;
+  --ic-brand-primary-lightened-5: #b62626 !important;
+  --ic-brand-primary-lightened-10: #ba3131 !important;
+  --ic-brand-primary-lightened-15: #be3d3d !important;
+  --ic-brand-button--primary-bgd-darkened-5: #ab1a1a !important;
+  --ic-brand-button--primary-bgd-darkened-15: #991717 !important;
+  --ic-brand-button--secondary-bgd-darkened-5: #2b3942 !important;
+  --ic-brand-button--secondary-bgd-darkened-15: #27333b !important;
+  --ic-brand-font-color-dark-lightened-15: #4c5860 !important;
+  --ic-brand-font-color-dark-lightened-30: #6c757c !important;
+  --ic-link-color-darkened-10: #a21919 !important;
+  --ic-link-color-lightened-10: #ba3131 !important;
+  --ic-brand-primary: #b31b1b !important;
+  --ic-brand-font-color-dark: #2d3b45 !important;
+  --ic-link-color: white !important;
+  --ic-brand-button--primary-bgd: var(--ic-brand-primary) !important;
+  --ic-brand-button--primary-text: #ffffff !important;
+  --ic-brand-button--secondary-bgd: #2d3b45 !important;
+  --ic-brand-button--secondary-text: #ffffff !important;
+  --ic-brand-global-nav-bgd: #262626 !important;
+  --ic-brand-global-nav-ic-icon-svg-fill: #d43c3c !important;
+  --ic-brand-global-nav-ic-icon-svg-fill--active: var(
+    --ic-brand-primary
+  ) !important;
+  --ic-brand-global-nav-menu-item__text-color: #ffffff !important;
+  --ic-brand-global-nav-menu-item__text-color--active: black !important;
+  --ic-brand-global-nav-avatar-border: #ffffff !important;
+  --ic-brand-global-nav-menu-item__badge-bgd: #128812 !important;
+  --ic-brand-global-nav-menu-item__badge-bgd--active: var(
+    --ic-brand-primary
+  ) !important;
+  --ic-brand-global-nav-menu-item__badge-text: #000000 !important;
+  --ic-brand-global-nav-menu-item__badge-text--active: #ffffff !important;
+  --ic-brand-global-nav-logo-bgd: var(--orange) !important;
+  --ic-brand-header-image: url(https://brand.cornell.edu/assets/images/downloads/logos/bold_cornell_seal/bold_cornell_seal.svg) !important;
+  --ic-brand-mobile-global-nav-logo: url(https://du11hjcvx0uqb.cloudfront.net/dist/images/mobile-global-nav-logo-aff8453309.svg) !important;
+  --ic-brand-watermark: !important;
+  --ic-brand-watermark-opacity: 1 !important;
+  --ic-brand-favicon: url(https://instructure-uploads.s3.amazonaws.com/account_97130000000000001/attachments/29724/cornellfac.ico) !important;
+  --ic-brand-apple-touch-icon: url(https://du11hjcvx0uqb.cloudfront.net/dist/images/apple-touch-icon-585e5d997d.png) !important;
+  --ic-brand-msapplication-tile-color: var(--ic-brand-primary) !important;
+  --ic-brand-msapplication-tile-square: url(https://du11hjcvx0uqb.cloudfront.net/dist/images/windows-tile-eda8889e7b.png) !important;
+  --ic-brand-msapplication-tile-wide: url(https://du11hjcvx0uqb.cloudfront.net/dist/images/windows-tile-wide-44d3cc1060.png) !important;
+  --ic-brand-right-sidebar-logo: !important;
+  --ic-brand-Login-body-bgd-color: #394b58 !important;
+  --ic-brand-Login-body-bgd-image: url(https://instructure-uploads.s3.amazonaws.com/account_97130000000000001/attachments/247/Cornell_University%252C_Ho_Plaza_and_Sage_Hall.jpg?AWSAccessKeyId=AKIAJFNFXH2V2O7RPCAA&Expires=1948717037&Signature=2Z7I8Rz0c5tcFnN%2B5Fx1aLY1fG0%3D&response-cache-control=Cache-Control%3Amax-age%3D473364000.0%2C%20public&response-expires=473364000.0) !important;
+  --ic-brand-Login-body-bgd-shadow-color: #2d3b45 !important;
+  --ic-brand-Login-logo: url(https://instructure-uploads.s3.amazonaws.com/account_97130000000000001/attachments/37892/CanvasatCornellLogoWht2Sm.png) !important;
+  --ic-brand-Login-Content-bgd-color: #262626 !important;
+  --ic-brand-Login-Content-border-color: #262626 !important;
+  --ic-brand-Login-Content-inner-bgd: none !important;
+  --ic-brand-Login-Content-inner-border: none !important;
+  --ic-brand-Login-Content-inner-body-bgd: none !important;
+  --ic-brand-Login-Content-inner-body-border: none !important;
+  --ic-brand-Login-Content-label-text-color: #ffffff !important;
+  --ic-brand-Login-Content-password-text-color: #dddddd !important;
+  --ic-brand-Login-footer-link-color: #dddddd !important;
+  --ic-brand-Login-footer-link-color-hover: #dddddd !important;
+  --ic-brand-Login-instructure-logo: #dddddd !important;
+}
+
+html {
+    text-decoration: none !important;
+}
+
+body {
+  background-color: black !important;
+}
+
+.ic-app-header__menu-list-item.ic-app-header__menu-list-item--active .ic-app-header__menu-list-link {
+    background: var(--orange) !important;
+}
+
+icon {
+  background: orange;
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+.ic-app-header__logomark-container{
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.hidden-phone{
+    background-color: orange !important;
+    border-radius: 10px;
+    padding: 10px;
+
+    color: black !important;
+    font-weight: bold;
+}
+
+.ic-Dashboard-header{
+    background-color: black !important;
+}
+
+.ic-Dashboard-header__layout{
+    background-color: black !important;
+}
+
+.ic-DashboardCard__header_hero{
+    background-image: url("https://cdn77-pic.xvideos-cdn.com/videos/thumbs169ll/c0/a5/6b/c0a56bc173010ba2b6ff483fa12b2490/c0a56bc173010ba2b6ff483fa12b2490.15.jpg") !important;
+}
